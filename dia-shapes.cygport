@@ -1,0 +1,13 @@
+NAME="dia-shapes"
+VERSION=0.5.0
+RELEASE=1
+CATEGORY="Graphics"
+SUMMARY="Additional shapes for Dia"
+DESCRIPTION="A collection of additional shapes (often called symbols, objects
+or stencils) that can be added to your Dia toolbox."
+HOMEPAGE="http://dia-installer.de/"
+SRC_URI="mirror://sourceforge/dia-installer/${NAME}-${VERSION}.tar.xz"
+
+DIFF_EXCLUDES="sheet-translation-report"
+
+OBSOLETES="diashapes"
